@@ -1,0 +1,31 @@
+what is program
+    A program is a lisr of instructions for the computer written in a langauge 
+    the computer can folloe think of it like arecopee step 1 step2 and step 3 so on 
+    the computer follows the steps for top to bottom
+
+    what is python
+        python is a programming langauge .it is propular because is like
+        readable langauge like english 
+
+    what is python interpreter
+        your computer doesn't understand english or pythin directly the 
+        interpreter is a program that reads the python instructions line by 
+        line and tells the computer to carry the out 
+        you write the python code in python langauge and the interpreter
+        convere to the computer langauge and runs it and show out put
+        
+         What is a .py file? 
+         It's a plain text file that contains Python instructions.
+          By saving your code in a file like hello.py, you can run 
+          it again and again.
+
+Compare this with your first error:
+
+	SyntaxError	NameError
+Cause	broken quote (the sentence is "written wrong")
+When Python finds it	before running anything
+
+NameError
+Cause  : wrong name (the sentence is fine, but Python doesn't know the word)
+
+When Python finds it :while running
