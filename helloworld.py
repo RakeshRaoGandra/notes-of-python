@@ -29,5 +29,5 @@ print("I am from Karimnagar")
 print("I am learning Python for a career in data analytics")
 print(4*4)
 
-Print("Hello) # in these one is syntax error in ("")doulbe codes
+#Print("Hello) # in these one is syntax error in ("")doulbe codes
 #  another is case censitive capatial p
