@@ -123,6 +123,49 @@ x == 10      # check if x is equal to 10 → True
 # it follows the BODMAS rule fisrst 2*3 =6 and after 6+5 =11
 # not (5>3) do give that if it is true it gives the false so here false
 
+# 1. Fixed Exercise 2
+
+# Age = 10
+age = 10
+print(age >= 18)   # False
+print(age < 60)    # True
+
+# Age = 18
+age = 18
+print(age >= 18)   # True
+print(age < 60)    # True
+
+# Age = 70
+age = 70
+print(age >= 18)   # True
+print(age < 60)    # False
+
+
+# 2. Real-life examples
+
+# AND
+# I can take an exam if I have paid the fee AND have good attendance.
+paid_fee = True
+good_attendance = True
+print(paid_fee and good_attendance)   # True
+
+# OR
+# I can travel if I have a bus ticket OR a train ticket.
+bus_ticket = False
+train_ticket = True
+print(bus_ticket or train_ticket)     # True
+
+
+# 3. Rewrite 5 + 2 * 3 to add first
+
+print((5 + 2) * 3)
+# Answer: 21
+
+
+# 4. AND version of 10 <= number <= 50
+
+print(number >= 10 and number <= 50)
+
 
 
 
