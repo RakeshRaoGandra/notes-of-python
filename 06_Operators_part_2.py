@@ -125,6 +125,7 @@ x == 10      # check if x is equal to 10 → True
 
 # 1. Fixed Exercise 2
 
+
 # Age = 10
 age = 10
 print(age >= 18)   # False
@@ -167,7 +168,7 @@ print((5 + 2) * 3)
 print(number >= 10 and number <= 50)
 
 
-
+#this is the main all operators are covred ok
 
 
 

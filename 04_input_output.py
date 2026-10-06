@@ -38,7 +38,7 @@ c=length*width
 print(c)
 
 age=int(input("enter a number:"))
-print("Next year you will be ",age)
+print("Next year you will be ",age+1)
 
 print("Python", "is", "fun", sep="-")
 
@@ -51,9 +51,14 @@ print("World")
 # if we write just input("df") it is a string write any thing like int string float it consider as a string only
 # print("5"*3 )it print the 5 in three thimes the output is 555
 #difference between print("a", "b") and print("a", "b", sep="")
-#print("a", "b") in this it print the a b in output is ab
-#print("a", "b", sep="") it print the same value but with spaces  the output is a b
+#print("a", "b") in this it print the a b in output is a b
+#print("a", "b", sep="") it print the same value but with  out spaces  the output is ab
 print("a", "b")
 print("a", "b", sep="")
 print("a", "b", sep="-") # here an understand exampe for it 
-# 5
+#sep stands for separator. It tells Python what to put between multiple values in a print() statement. like *,-,m orany thing 
+# sep is used When you use print() with multiple values, Python normally not give space  between them. with sep the space is added
+
+age=int(input("enter a number:"))
+print("Next year you will be ",age+1)
+#sep stands for separator. It tells Python what to put between multiple values in a print() statement. like *,-,m orany thing 
