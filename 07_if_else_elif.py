@@ -9,7 +9,7 @@
 # runs when the condition is false
 
 # Indentation is how the python knows which lines are inside the if else has no cindition it catches everything the if didn't
-
+'''
 # Example
 age=20
 if age>=17.9:
@@ -209,3 +209,16 @@ elif 10 <= temperature <= 19:
     print("Cool")
 else:
     print("Cold")
+'''
+#######
+marks =int(input("enter a number : "))
+
+if marks >= 50:
+    print("Pass")
+
+if marks >= 80:
+    print("Very Good")
+
+if marks >= 90:
+    print("Excellent")
+# it print according to the marks input u given for example id i entered 90 excellent and id u entered 78 id pass and id 89 very good
