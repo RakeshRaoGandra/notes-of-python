@@ -8,7 +8,7 @@
 #Nested conditions means putting an if inside another if. The inner one only runs if the outer one was true. Think of airport security: first "do you have a ticket?" and only if yes, "is your bag allowed?"
 
 #Why is it useful? Real decisions often depend on more than one thing: "You can drive if you're 18 or older and have a licence." Both ideas below handle that.
-'''
+
 #########
 # examples 
 age =20
@@ -69,7 +69,7 @@ if number >=1 and number<=100 and number%5==0:
     print("Yes")
 else:
     print("No")
-'''
+
 a=5
 b=5
 c=5
@@ -79,3 +79,9 @@ elif b>c:
     print(b)
 elif c>a:
     print (c)
+#
+    
+
+#
+# this is the only for the status purpose only
+

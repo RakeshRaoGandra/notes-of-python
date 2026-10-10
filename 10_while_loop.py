@@ -19,4 +19,7 @@ i = 1
 while i < 4:
     print(i)
     i = i + 1 
-    
+    # 7 ,4,1  4 times
+    #3 times
+
+# 
