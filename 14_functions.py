@@ -79,4 +79,67 @@ print(subtract(10, 3))
 print(subtract(3, 10))
 
 
-# local and gobal variabeles 
+# local and gobal variabeles
+# 
+#  
+#Local variable: created inside a function. It exists only while the function runs.
+
+
+
+def show():
+    x=5
+    print(x)
+show()
+print(5)
+
+# Global variable: created outside all functions. A function can read it.
+
+rate = 10
+
+def price(qty):
+    return qty * rate
+
+print(price(3))
+
+#####
+def sum_to(n):
+    total = 0
+    for i in range(1, n + 1):
+        total = total + i
+    return total
+
+print(sum_to(4))
+
+######
+# functions with strings 
+# 
+def count_vowels(word):
+    count = 0
+    for ch in word:
+        if ch in "aeiou":
+            count = count + 1
+    return count
+
+print(count_vowels("education"))
+print(count_vowels("sky"))
+
+#
+# functions with lists 
+def find_max(nums):
+    biggerst=nums[0]
+    for n in nums:
+        if n>biggerst:
+            biggerst=n
+    return biggerst
+print(find_max([4,5,3425,234,23]))
+
+arr=[234,235,234,23,5,23,4,23,4235,2423,3498,6553,5]
+bigesr=0
+for n in arr:
+    if n>bigesr:
+        bigesr=n
+print(bigesr)
+
+######
+# 
+# another thatn that practice sone of athe incorect probles,s
