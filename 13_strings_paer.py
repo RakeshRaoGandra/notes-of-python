@@ -65,3 +65,10 @@ print("a-b-c".split("-"))
 print("banana".count("a"))
 print("banana".find("n"))
 print("banana".find("z"))
+
+s = "hello"
+s[0] +"H"
+print(s)
+
+#
+
