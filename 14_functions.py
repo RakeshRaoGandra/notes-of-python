@@ -143,3 +143,11 @@ print(bigesr)
 ######
 # 
 # another thatn that practice sone of athe incorect probles,s
+def total(n):
+    s = 0
+    for i in range(1, n + 1):
+        s = s + i
+        return s
+
+print(total(4))
+print(total(5))
