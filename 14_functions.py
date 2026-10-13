@@ -151,3 +151,70 @@ def total(n):
 
 print(total(4))
 print(total(5))
+
+"""
+Functions: Practice Problems to Write
+
+I took this to mean “give me functions to write for practice.” If you wanted something else, tell me.
+
+Rules:
+
+Write the code yourself. I won’t give solutions until you send your attempt.
+Use return, not print, inside the function. Print only when you test it.
+Test every function with at least 2 inputs.
+Send me your code, and I’ll check it line by line.
+Level 1: Basics (parameters and return)
+square(n): returns n * n
+add(a, b): returns the sum
+is_positive(n): returns True if n > 0, else False
+is_even(n): returns True if n is even
+bigger(a, b): returns the larger of two numbers (without using max())
+Level 2: Functions with if
+grade(marks): returns "A" if marks ≥ 80, "B" if ≥ 50, else "C"
+check_sign(n): returns "positive", "negative", or "zero"
+is_adult(age): returns True if age ≥ 18
+Level 3: Functions with loops
+sum_to(n): returns the sum of 1 to n
+factorial(n): returns n! (for example, factorial(4) is 4 * 3 * 2 * 1 = 24)
+count_even_upto(n): returns how many even numbers are between 1 and n
+multiplication_table(n): prints the table of n from 1 to 10 (this one prints instead of returning)
+Level 4: Functions with strings
+count_vowels(word): returns the number of vowels
+count_char(word, ch): returns how many times ch appears
+reverse_string(s): returns the reversed string (use a loop, not [::-1])
+is_palindrome(s): returns True or False (compare characters from both ends)
+Level 5: Functions with lists
+sum_list(nums): returns the sum
+find_max(nums): returns the largest number (without max())
+count_positive(nums): returns how many numbers are greater than 0
+contains(nums, target): returns True if target is in the list (use a loop, not in)
+Level 6: Combining functions
+Write is_even(n) first, then write count_evens(nums) that calls is_even.
+Write is_vowel(ch) first, then write count_vowels(word) that calls it.
+
+#	Topic	Status
+1	Why functions are needed	✅ Taught (Day 7)
+2	Defining a function (def) and calling it	✅ Taught (Day 7)
+3	Parameters vs arguments	✅ Taught (Day 7)
+4	return and print vs return	✅ Taught (Day 7)
+5	Multiple parameters (order matters)	✅ Taught (Day 8)
+6	Local variables	✅ Taught (Day 8)
+7	Global variables	✅ Taught (Day 8), but only reading them
+8	Functions with loops	✅ Taught (Day 8)
+9	Functions with strings	✅ Taught (Day 8)
+10	Functions with lists	✅ Taught (Day 8)
+11	Breaking a problem into functions	✅ Taught (Day 8)
+Extra topics that matter for DSA (not taught yet)
+#	Topic	Why it matters
+12	Modifying a global variable (the global keyword)	Completes the local vs global topic. You’ll see why it’s usually avoided
+13	Local vs global with the same name	A local x and a global x are different variables. A classic trap
+14	Returning multiple values	return a, b is used in many problems
+15	Default parameters	def greet(name="friend")
+16	Keyword arguments	Calling with f(a=1, b=2) so order doesn’t matter
+17	Functions calling other functions	The step before recursion
+18	A function without return gives None	Common source of bugs
+19	Passing a list to a function and changing it	The change is visible outside, which links to mutable vs immutable later
+
+
+"""
+
