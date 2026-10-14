@@ -109,3 +109,5 @@ for i in range(len(marks)):
 #####
 # next is searching, inserting, deleting, and list methods.
 
+# next abou the list of the top indursities
+#and to tje necr 
