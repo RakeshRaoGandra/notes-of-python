@@ -111,3 +111,6 @@ for i in range(len(marks)):
 
 # next abou the list of the top indursities
 #and to tje necr 
+
+# the maon thye of the main type in thewrol
+# rbi 
